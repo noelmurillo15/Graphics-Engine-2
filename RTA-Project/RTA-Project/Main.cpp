@@ -43,7 +43,7 @@ class RENDERER {
 
 	//	Misc
 	RenderShape*			grid = nullptr;
-	RenderShape*			cube = nullptr;
+	RenderShape*			model = nullptr;
 
 	TimerClass				timeTracker;
 
@@ -267,11 +267,10 @@ RENDERER::RENDERER(HINSTANCE hinst, WNDPROC proc) {
 
 #pragma region RenderShapes
 	grid = new RenderShape;
-	cube = new RenderShape;
+	model = new RenderShape;
 	grid->InitializeGrid(Device);
-	cube->InitializeModel(Device, "Link.obj");
-
-	cube->ScaleModel(FLOAT3(0.1f, 0.1f, 0.1f));
+	model->InitializeModel(Device, "Link.obj");
+	model->ScaleModel(FLOAT3(0.1f, 0.1f, 0.1f));
 #pragma endregion
 }
 
@@ -304,8 +303,8 @@ bool RENDERER::Render() {
 #pragma endregion
 
 #pragma region Draw Model
-	UpdateCB(cube->GetWorldMatrix());
-	cube->func(DevContext, cube);
+	UpdateCB(model->GetWorldMatrix());
+	model->func(DevContext, model);
 #pragma endregion
 
 	SwapChain->Present(0, 0);
@@ -413,7 +412,7 @@ void RENDERER::ShutDown() {
 	textureBlendState->Release();
 
 	delete grid;
-	delete cube;
+	delete model;
 
 	UnregisterClass(L"DirectXApplication", application);
 }

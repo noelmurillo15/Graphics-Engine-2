@@ -61,13 +61,13 @@
     <FxCompile Include="VS_Cube.hlsl">
       <Filter>Resource Files</Filter>
     </FxCompile>
+    <FxCompile Include="VS_Grid.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
     <FxCompile Include="PS_Cube.hlsl">
       <Filter>Resource Files</Filter>
     </FxCompile>
     <FxCompile Include="PS_Grid.hlsl">
-      <Filter>Resource Files</Filter>
-    </FxCompile>
-    <FxCompile Include="VS_Grid.hlsl">
       <Filter>Resource Files</Filter>
     </FxCompile>
   </ItemGroup>

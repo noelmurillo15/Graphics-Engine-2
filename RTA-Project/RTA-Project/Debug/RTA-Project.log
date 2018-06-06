@@ -1,0 +1,47 @@
+﻿  compilation header save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\RTA-Project\PS_Cube.csh
+  compilation object save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\Debug\PS_Cube.csh
+  compilation header save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\RTA-Project\PS_Grid.csh
+  compilation object save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\Debug\PS_Grid.csh
+  compilation header save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\RTA-Project\VS_Cube.csh
+  compilation object save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\Debug\VS_Cube.csh
+  compilation header save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\RTA-Project\VS_Grid.csh
+  compilation object save succeeded; see D:\Projects\VisualStudio\Graphics-Engine-2\RTA-Project\Debug\VS_Grid.csh
+  TimerClass.cpp
+  RenderShape.cpp
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(252): warning C4099: 'ID3D11DeviceContext': type name first seen using 'class' now seen using 'struct'
+  d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendernode.h(8): note: see declaration of 'ID3D11DeviceContext'
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(329): warning C4099: 'ID3D11Device': type name first seen using 'class' now seen using 'struct'
+  d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendershape.h(8): note: see declaration of 'ID3D11Device'
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(7498): warning C4099: 'ID3D11DeviceContext': type name first seen using 'class' now seen using 'struct'
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(7498): note: see declaration of 'ID3D11DeviceContext'
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(13572): warning C4099: 'ID3D11Device': type name first seen using 'class' now seen using 'struct'
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(13572): note: see declaration of 'ID3D11Device'
+  RenderMesh.cpp
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendermesh.cpp(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendermesh.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendermesh.cpp(42): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendermesh.cpp(48): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendermesh.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+  RenderContext.cpp
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendernode.h(8): warning C4099: 'ID3D11DeviceContext': type name first seen using 'struct' now seen using 'class'
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(7498): note: see declaration of 'ID3D11DeviceContext'
+d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendershape.h(8): warning C4099: 'ID3D11Device': type name first seen using 'struct' now seen using 'class'
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(13572): note: see declaration of 'ID3D11Device'
+  MathFunc.cpp
+  Main.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(252): warning C4099: 'ID3D11DeviceContext': type name first seen using 'class' now seen using 'struct'
+  d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendernode.h(8): note: see declaration of 'ID3D11DeviceContext'
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(329): warning C4099: 'ID3D11Device': type name first seen using 'class' now seen using 'struct'
+  d:\projects\visualstudio\graphics-engine-2\rta-project\rta-project\rendershape.h(8): note: see declaration of 'ID3D11Device'
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(7498): warning C4099: 'ID3D11DeviceContext': type name first seen using 'class' now seen using 'struct'
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(7498): note: see declaration of 'ID3D11DeviceContext'
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(13572): warning C4099: 'ID3D11Device': type name first seen using 'class' now seen using 'struct'
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\d3d11.h(13572): note: see declaration of 'ID3D11Device'
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'kernel32.lib'
